@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      <div className="flex max-md:flex-col mx-auto w-[80%]">
+      <div id="home" className="flex max-md:flex-col mx-auto w-[80%]">
         <Image
           src="/Frame 1.png"
           alt="image"

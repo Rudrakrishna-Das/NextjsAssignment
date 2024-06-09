@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const Slide = () => {
   return (
-    <div className="w-[80%] max-md:w-full text-white h-96 mx-auto my-6 bg-cover bg-center bg-custom-frame ">
+    <div
+      id="price"
+      className="w-[80%] max-md:w-full text-white h-96 mx-auto my-6 bg-cover bg-center bg-custom-frame "
+    >
       <div className="relative flex flex-col gap-3 top-[40%] max-md:top-[10%] left-[5%] w-[70%]">
         <h1 className="max-md:text-lg text-5xl">Ready To Get Started?</h1>
         <p className="text-sm">

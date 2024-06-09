@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <div className="flex w-[83%] mx-auto max-md:flex-col z-[-1]">
+    <div id="features" className="flex w-[83%] mx-auto max-md:flex-col z-[-1]">
       <div
         className="relative flex-shrink-0"
         style={{
